@@ -30,4 +30,12 @@ function quadrado(){
 
     }
 }
- 
+function calcula(){
+    let val = document.getElementById("valor").Value;
+    let j = document.getElementById("juros").Value;
+    let t = document.getElementById("meses").Value;
+
+    let res = val * (1+(j/100));
+
+    document.write("resultado: "+res);
+} 
